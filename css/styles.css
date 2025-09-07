@@ -90,6 +90,12 @@
     scroll-behavior: smooth;
   }
 }
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 900 / 650;
+  object-fit: cover;
+}
 
 body {
   margin: 0;
@@ -146,6 +152,7 @@ h3, .h3 {
     font-size: 1.75rem;
   }
 }
+
 
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
@@ -246,7 +253,7 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color:  #6b6b6b;
   text-decoration: underline;
 }
 a:hover {
@@ -10969,7 +10976,9 @@ html {
 
 .masthead {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-bottom: 2rem; 
+  min-height: auto; 
+
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
